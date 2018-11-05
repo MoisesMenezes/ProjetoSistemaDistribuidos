@@ -1,3 +1,14 @@
+@font-face{
+	src: url(../fonts/Comfortaa-Regular.ttf);
+	font-family: 'Comfortaa', cursive;
+}
+
+.tdm{
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
 .principal{
     height: 100%;
     padding-top: 120px;
@@ -6,3 +17,25 @@
 .logo{
     padding: 30px;
 }
+
+.cardImg{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+.cartao {
+    padding-top: 40px;
+}
+
+.rodape{
+    padding-top: 34px;
+}
+
+.footer{
+    background-color: #fafaf3;
+    padding: 3rem 1.5rem 6rem;
+    font-family: 'Comfortaa', cursive; 
+    height: 10px;
+}
+
