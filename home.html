@@ -11,17 +11,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <title>Home</title>
 </head>
 
 <body>
-    <section class="hero is-primary">
+    <section class="hero ">
         <div class="hero-head">
             <nav class="navbar">
                 <div class="container">
                     <div id="navbarMenuHeroA" class="navbar-menu">
                         <div class="navbar-end">
-                            <span class="navbar-item">
+                            <span class="navbar-item nav-left">
                                 <a class="button is-primary">
                                     <span class="icon">
                                         <i class="fab fa-github"></i>
@@ -35,63 +36,52 @@
             </nav>
         </div>
         <div class="hero-body">
-            <div class="container has-text-centered">
-                <h1 class="tdm">
-                    TDM Soluções 
-                </h1>
-                <h2 class="subtitle">
-                    Sistema de Ordem de Serviço
-                </h2>
+            <div class="container">
+                <div class="caixa "><h1 class="titulo2   has-text-centered ">Sistema de Ordem de Serviço</h1> </div>
             </div>
         </div>
     </section> 
 
-    <section class="cartao container has-text-centered">
-
-        <div class="columns features">
-                <div class="column ">
-                        <div class="card is-shady">
-                            <div class="cardImg">
-                                <figure class="image is-96x96">
-                                    <img src="./icons/userAdd.svg" >
-                                </figure>
-                            </div>
-                            <div class="card-content">
-                                    <div class="content">
-                                        <h2>Clientes</h2>
-                                        <p>Adicionar um novo Cliente.</p>
-                                        <p><a href="#" class="button is-primary is-rounded">GO</a></p>
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-            <div class="column">
-                    <div class="card  ">
+    <section class="cartao  has-text-centered ">
+        <div class="columns  coluna ">            
+                <div class="card2  ">
                         <div class="cardImg">
-                            <figure class="image is-96x96 ">
-                                <img src="./icons/documentAdd.svg" alt="">
+                            <figure class="image is-96x96">
+                                <img src="./icons/group.svg" alt="">
                             </figure>
                         </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h2>Ordem de Serviço</h2>
-                                <p>Adicionar uma nova Ordem de serivço</p>
-                                <p><a href="#" class="button is-primary is-rounded">GO</a></p>
-                            </div>
+
+                        <h1 class="titulo1">Clientes</h1>
+                        <div class="botoes">
+                                <a  href="#" class="button  is-success is-rounded add ">Adicionar</a>
+                                <a  href="#" class="button  is-warning is-rounded">Alterar</a>
+                                <a  href="#" class="button  is-danger is-rounded rem">Remover</a>
+                            
                         </div>
                     </div>
-                </div>
+                        
+                    <div class="card2  ">
+                        <div class="cardImg">
+                            <figure class="image is-96x96">
+                                <img src="./icons/clipboard.svg" alt="">
+                            </figure>
+                        </div>
+
+                        <h1 class="titulo1">Ordem de Serviço</h1>
+                        <div class="botoes">
+                                <a href="#" class="button  is-success is-rounded add ">Adicionar</a>
+                                <a href="#" class="button  is-warning is-rounded">Alterar</a>
+                                <a href="#" class="button  is-danger is-rounded rem">Remover</a>
+                            
+                        </div>
+                    </div>
         </div>
     </section>
-    <section class="rodape">
-        <footer class="footer">
-            <div class="container">
-                <div class="context has-text-centered fixed-footer">
-                    <p>Desenvolvido por Talles Castilho - Diego Russo - Moisés Menezes</p>
-                </div>
-            </div>
-        </footer>
+    
+    <section class="rodape has-text-centered">
+            <p class="">Desenvolvido Por Moisés Menezes</p>
     </section>
+    
 </body>
 
 </html>

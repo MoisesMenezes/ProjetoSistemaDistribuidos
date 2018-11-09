@@ -8,10 +8,17 @@
     font-family: 'Comfortaa', cursive;
 }
 
+.hero{
+    background: #00bcd4;
+}
+.hero.head{
+    background: #00c7e1;
+}
+
 
 .principal{
     height: 100%;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 .logo{
@@ -21,11 +28,20 @@
 .cardImg{
     justify-content: center;
     display: flex;
-    padding-top: 10px;
+    position:relative;
+    top: -47px;
+}
+
+
+
+body{
+    height: 100%;
+    width: 100%;
 }
 
 .cartao {
-    padding-top: 40px;
+    padding-top: 116px;
+    position: relative;
 }
 
 .rodape{
@@ -39,3 +55,74 @@
     height: 10px;
 }
 
+.caixa{
+    margin: 0 auto;
+    float: none;
+    width: 620px;
+    height: 164px;
+    border: solid 4px white;
+    color: white;
+    
+}
+
+.titulo2{
+    font-size: 48px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+
+.card2{
+    width: 460px;
+    margin-left: 20px;
+    height: 289px;
+    border-radius: 15px;
+    background-color: rgba(196,196,196,0.16);
+    display: block;
+}
+
+.coluna{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    width: 460px;
+    height: 289px;
+    border-radius: 15px;
+    background-color: rgba(196,196,196,0.16);   
+}
+
+.titulo1{
+    font-size:40px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+.botoes{
+    padding-top: 30px;
+}
+.botoes .add{
+   margin-right: 20px;
+}
+.botoes .rem{
+    margin-left: 20px;
+}
+.button{
+    width: 115px;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.rodape{
+    margin-top: 75px;
+    height: 63px;
+    background-color: #00c7e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape p  {
+    padding-bottom: 7px;
+}
