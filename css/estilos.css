@@ -3,11 +3,6 @@
 	font-family: 'Comfortaa', cursive;
 }
 
-.tdm{
-    font-size: 50px;
-    font-family: 'Comfortaa', cursive;
-}
-
 .hero{
     background: #00bcd4;
 }
@@ -33,27 +28,34 @@
 }
 
 
-
 body{
     height: 100%;
     width: 100%;
 }
 
 .cartao {
-    padding-top: 116px;
+    padding-top: 100px;
     position: relative;
 }
+.cartao2{
+    
+    padding-top: 80px;
+
+}
+.linha{
+
+margin-bottom: 13px;
+
+width: 1145px;
+border: 1px solid #00BCD4;
+}
+
+
 
 .rodape{
     padding-top: 34px;
 }
 
-.footer{
-    background-color: #fafaf3;
-    padding: 3rem 1.5rem 6rem;
-    font-family: 'Comfortaa', cursive; 
-    height: 10px;
-}
 
 .caixa{
     margin: 0 auto;
@@ -67,11 +69,12 @@ body{
 
 .titulo2{
     font-size: 48px;
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     padding-top: 10px;
+    font-family: 'Quicksand', sans-serif;
     
 }
+
 
 .card2{
     width: 460px;
