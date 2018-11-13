@@ -39,7 +39,12 @@ body{
 }
 .cartao2{
     
-    padding-top: 80px;
+    margin-top:30px !important;
+    padding: 22px;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px / 10px;
+    background: #f5f5f5;
+
 
 }
 .linha{
@@ -76,12 +81,48 @@ border: 1px solid #00BCD4;
 }
 
 
+.editar{
+    width: 45px !important;
+}
+
+/* Pagina Cliente */
+.clientes{
+    padding-top: 20px;
+    margin-top: 60px  !important;
+    background: #f5f5f5 !important;
+    border-radius: 10px / 10px;
+    height: 200px;
+    width: 1000px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.os{
+    padding-top: 20px;
+    margin-top: 60px  !important;
+    background: #f5f5f5 !important;
+    border-radius: 10px / 10px;
+    height: 200px;
+    width: 1000px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    
+}
+.table{
+    height: 50px;
+    width: 98%  !important;
+    margin: auto;
+}  
+
+
 .card2{
     width: 460px;
     margin-left: 20px;
     height: 289px;
     border-radius: 15px;
-    background-color: rgba(196,196,196,0.16);
+    background-color: rgba(50,50,50,0.16);
     display: block;
 }
 
@@ -95,7 +136,7 @@ border: 1px solid #00BCD4;
     width: 460px;
     height: 289px;
     border-radius: 15px;
-    background-color: rgba(196,196,196,0.16);   
+    background-color: rgba(50,50,50,0.16);   
 }
 
 .titulo1{
@@ -128,4 +169,10 @@ border: 1px solid #00BCD4;
 }
 .rodape p  {
     padding-bottom: 7px;
+}
+
+.radio{
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
 }
